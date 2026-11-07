@@ -1,0 +1,13 @@
+{
+  "name": "mir-air-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Сайт-витрина студенческой команды МИР×АИР: банк идей и проектов",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "dev": "npx --yes serve . -l 8080",
+    "build": "node scripts/build.mjs",
+    "preview": "npx --yes serve dist -l 8081"
+  }
+}
